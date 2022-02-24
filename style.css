@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup_box{
+    display: flex;
+}
+
+.imagebox{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("Rectangle\ 131.svg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxcontent{
+    padding: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.signup_text{
+    margin-bottom: 10px;
+}
+
+.signupcards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.cont{
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color:rgba(66, 66, 67, 1);
+}
+
+.signupcard1{
+    border-radius: 10px;
+   background-color: #A91F2F; 
+   box-shadow: 0px 0px 4px 0px #949494;
+   margin-bottom: 30px;
+
+}
+
+.headingtxt{
+    padding-bottom: 20px;
+}
+
+.card1{
+    display: flex;
+    margin: 18px;
+    color: #FFFFFF;
+}
+
+.card1 .textimg{
+    width: 20%;
+    align-items: center;
+    display: flex;
+}
+
+.card1 .textcontent{
+    width: 70%;
+}
+
+.card1 .arrow{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card1 .textcontent .cardheadertext{
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.card1 .textcontent .cardbodytext{
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+.signupcard2{
+    border-radius: 10px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0px #949494;
+    margin-bottom: 20px;
+
+ }
+ 
+
+.card2{
+    display: flex;
+    margin: 18px;
+}
+
+.card2 .textimg{
+    width: 20%;
+    align-items: center;
+    display: flex;
+}
+
+.textimg img{
+    width: 45px;
+    height: 45px;
+}
+
+.card2 .textcontent{
+    width: 70%;
+}
+
+.card2 .arrow{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arrow img{
+    Width:10.67px;
+    Height: 21.33px;
+}
+
+.card2 .textcontent .cardheadertext{
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.card2 .textcontent .cardbodytext{
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .signup_box{
+        display: block;
+    }
+
+    .imagebox{
+        display: none;
+    }
+    .boxcontent{
+        margin-top: 50px;
+       min-height: auto;
+       width: 100%;
+       padding: 35px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+
+    .signup_text{
+        margin-bottom: 65px;
+    }
+
+    .signupcard1{
+        margin-bottom: 65px;
+    }
+
+    .signupcard2{
+        margin-bottom: 65px;
+    }
+  }
+
+  @media only screen and (max-width: 440px){
+    .signup_text{
+        margin-bottom: 35px;
+    }
+    .boxcontent{
+        margin-top: 40px;
+        padding: 15px;
+    }
+
+    .signupcard1{
+        margin-bottom: 45px;
+    }
+
+    .signupcard2{
+        margin-bottom: 45px;
+    }
+  }
+
+
+
+
+
