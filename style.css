@@ -7,6 +7,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.backbtn{
+    margin-right: 10px;
+}
+
 .signup_box{
     display: flex;
 }
@@ -44,10 +52,10 @@
 
 .cont{
 font-family: Roboto;
-font-size: 20px;
+font-size: 17px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px;
+line-height: 20px;
 letter-spacing: 0px;
 text-align: left;
 color:rgba(66, 66, 67, 1);
@@ -90,7 +98,7 @@ color:rgba(66, 66, 67, 1);
 
 .card1 .textcontent .cardheadertext{
 font-family: Roboto;
-font-size: 24px;
+font-size: 21px;
 font-style: normal;
 font-weight: 700;
 line-height: 38px;
@@ -154,7 +162,7 @@ text-align: left;
 
 .card2 .textcontent .cardheadertext{
 font-family: Roboto;
-font-size: 24px;
+font-size: 21px;
 font-style: normal;
 font-weight: 700;
 line-height: 38px;
